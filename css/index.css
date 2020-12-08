@@ -1,5 +1,26 @@
+<style>
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+</style>
 
 :root {
     font-family: 'Abel', sans-serif;
+}
+
+body {
+    font-family: 'Abel', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    font-weight: bold;
+}
+
+h1 {
+    text-transform: uppercase;
 }
