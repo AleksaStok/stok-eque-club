@@ -17,6 +17,10 @@ body {
     background-position: center;
 }
 
+.discover {
+    text-align: left;
+}
+
 .menu a {
     text-decoration: none;
     text-transform: uppercase;
@@ -40,5 +44,6 @@ p {
 }
 
 .smaller-image {
-    max-width: 100px;
+    max-width: 300px;
+    display: block;
 }
