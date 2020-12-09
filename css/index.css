@@ -17,10 +17,6 @@ body {
     background-position: center;
 }
 
-.discover {
-    text-align: left;
-}
-
 .menu a {
     text-decoration: none;
     text-transform: uppercase;
@@ -56,6 +52,6 @@ td {
 }
 
 .smaller-image {
-    max-width: 1000px;
+    max-width: 3000px;
     display: block;
 }
