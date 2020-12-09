@@ -13,13 +13,12 @@ body {
 
 .banner {
     background-image: url(../img/black.jpg);
-    background-size: cover;
     background-position: center;
 }
 
 .menu a {
     display: block;
-    width: 100px;
+    width: 300px;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -50,6 +49,6 @@ td {
 }
 
 .smaller-image {
-    max-width: 3000px;
+    max-width: 2000px;
     display: block;
 }
