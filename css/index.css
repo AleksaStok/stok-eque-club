@@ -1,4 +1,6 @@
+<style>
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+</style>
 
 :root {
     font-family: 'Abel', sans-serif;
@@ -13,7 +15,7 @@ body {
     background-image: url(../img/black.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 500px;
+    max-width: 1000px;
 }
 
 .menu a {
@@ -36,4 +38,8 @@ h1 {
 
 p {
     color: blue;
+}
+
+.smaller-image {
+    max-width: 500px;
 }
