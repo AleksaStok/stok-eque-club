@@ -18,16 +18,14 @@ body {
 }
 
 .menu a {
+    display: block;
+    width: 100px;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 .menu a:hover {
     font-weight: bold;
-}
-
-h1 {
-    text-transform: uppercase;
 }
 
 .blue-text {
