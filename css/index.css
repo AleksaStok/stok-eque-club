@@ -15,7 +15,6 @@ body {
     background-image: url(../img/black.jpg);
     background-size: cover;
     background-position: center;
-    max-width: 1000px;
 }
 
 .menu a {
@@ -41,5 +40,5 @@ p {
 }
 
 .smaller-image {
-    max-width: 500px;
+    max-width: 100px;
 }
