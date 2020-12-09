@@ -16,11 +16,10 @@ body {
     background-image: url(../img/black.jpg);
     background-position: center;
     background-size: cover;
-    min-height: 600px;
+    min-height: 500px;
 }
 
 .menu a {
-    display: block;
     width: 400px;
     text-decoration: none;
     text-transform: uppercase;
