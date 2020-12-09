@@ -36,14 +36,26 @@ h1 {
 
 .blue-text {
     color: blue;
-    font-weight: bold
 }
 
 p {
     color: blue;
 }
 
+td {
+    color: blue;
+}
+
+.white-text {
+    color: white;
+}
+
+#disciplines div {
+    background-color: blue;
+    color: white;
+}
+
 .smaller-image {
-    max-width: 300px;
+    max-width: 1000px;
     display: block;
 }
