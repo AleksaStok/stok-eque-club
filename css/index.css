@@ -2,51 +2,80 @@
 
 :root {
     font-family: 'Abel', sans-serif;
+    --main-color: #ffffff;
+    --accent-color: #1c38ba;
 }
 
 body {
-    font-family: 'Abel', sans-serif;
-    background-color: black;
-    color: white;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    margin: auto;
 }
 
-.banner {
+header {
     background-image: url(../img/black.jpg);
     background-position: center;
     background-size: cover;
+    min-height: 600px;
+}
+
+.burger-icon {
+    font-size: 1.5rem;
+}
+
+#burger-checkbox {
+    display: none;
 }
 
 .menu a {
-    width: 400px;
+    display: block;
     text-decoration: none;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px;
+    padding: 5px;
 }
 
 .menu a:hover {
     font-weight: bold;
+    color: var(--accent-color);
 }
 
-.blue-text {
-    color: blue;
+header nav .menu {
+    display: none;
 }
 
-p {
-    color: blue;
+header nav input:checked ~ .menu {
+    display: block;
 }
 
-td {
-    color: blue;
-}
+@media (min-width: 800px) {
 
-.white-text {
-    color: white;
-}
+    .burger-icon {
+        display: none;
+    }
 
-#disciplines div {
-    background-color: blue;
-    color: white;
+        header nav input:checked ~ .menu {
+        display: flex;
+    }
+
+    header nav {
+        display: flex;
+    }
+
+    header nav .menu {
+        display: flex;
+        flex: 1;
+        justify-content: space-around;
+        align-items: center;
+    }
+
 }
 
 .smaller-image {
     max-width: 600px;
     display: block;
 }
+
