@@ -4,6 +4,7 @@
     font-family: 'Abel', sans-serif;
     --main-color: #ffffff;
     --accent-color: #1c38ba;
+    font-size: inherit;
 }
 
 body {
@@ -51,13 +52,104 @@ header nav input:checked ~ .menu {
     display: block;
 }
 
+.banner h2 {
+    color: var(--accent-color);
+}
+
+.sport {
+    display: flex;
+    align-items: center;
+}
+
+.sport div {
+    padding: 10px;
+}
+
+.sport p {
+    color: var(--accent-color);
+}
+
+.sport blockquote {
+    color: var(--accent-color);
+}
+
+.how-to-book ul li p {
+    color: var(--accent-color);
+}
+
+.how-to-book div {
+    padding: 10px;
+}
+
+.how-to-book {
+    display: flex;
+    align-items: center;
+}
+
+#book {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#about p {
+    color: var(--accent-color);
+
+}
+
+#about ul li {
+    color: var(--accent-color);
+}
+
+#about h3 {
+    color: var(--main-color);
+}
+
+#about div {
+    padding: 10px;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+}
+
+#disciplines p {
+    color: var(--accent-color);
+}
+
+#disciplines div p{
+    color: var(--main-color);
+}
+
+#disciplines div {
+    padding: 10px;
+}
+
+.dressage {
+    background-color: var(--accent-color);
+    display: flex;
+    align-items: center;
+}
+
+.show-jumping {
+    background-color: var(--accent-color);
+    display: flex;
+    align-items: center;
+}
+
+.cross {
+    background-color: var(--accent-color);
+    display: flex;
+    align-items: center;
+}
+
 @media (min-width: 800px) {
 
     .burger-icon {
         display: none;
     }
 
-        header nav input:checked ~ .menu {
+    header nav input:checked ~ .menu {
         display: flex;
     }
 
@@ -68,8 +160,12 @@ header nav input:checked ~ .menu {
     header nav .menu {
         display: flex;
         flex: 1;
-        justify-content: space-around;
+        justify-content: flex-end;
         align-items: center;
+    }
+
+    header nav .menu a {
+        padding: 20px;
     }
 
 }
@@ -77,5 +173,16 @@ header nav input:checked ~ .menu {
 .smaller-image {
     max-width: 600px;
     display: block;
+    padding: 20px;
 }
 
+.disciplines {
+    max-width: 300px;
+    display: block;
+    padding: 20px;
+}
+
+#countdown {
+    display: flex;
+    justify-content: space-around;
+}
